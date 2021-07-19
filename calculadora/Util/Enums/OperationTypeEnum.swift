@@ -7,6 +7,6 @@
 
 import UIKit
 
-class OperationTypeEnum: NSObject {
-
+public enum OperationTypeEnum {
+    case none, addiction, substraction, multiplecation, division, percent
 }
